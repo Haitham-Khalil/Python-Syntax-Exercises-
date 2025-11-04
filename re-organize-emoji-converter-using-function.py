@@ -1,0 +1,33 @@
+
+def emoji_converter(message):
+    emojis_mapping={
+    ";)":"😉",
+    ":)":"😊",
+    ":(":"😢",
+    ":|":"😑"                       
+}
+    words=message.split(" ")
+    output=""
+    for word in words:
+        output+=emojis_mapping.get(word,word)+" "
+    return output
+
+
+message=input('>')
+print(emoji_converter(message))
+
+
+
+
+
+"""
+Why don't we include the  [ message=input(">") ] and [ print (output) ] in the function ?
+
+because this algorithm for converting these faces into emojis is sth that we probably want to use
+
+in different applications, and different applications mean different ways to get the message (terminal, GUI) ,
+
+and different ways to deal with the output(email, response in a chat application).That's why they are not included in the function (algorithm)
+
+"""
+    
