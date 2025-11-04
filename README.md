@@ -19,3 +19,25 @@ Logical Operators
 Input/Output
 
 Basic Game Logic
+
+
+
+
+
+
+
+Car Game.py ==> A simple interactive game using conditionals and loops
+
+Convert lbs to kg.py ==> A basic weight conversion program
+
+Emoji Converter.py ==> Replaces text with emojis using dictionaries
+
+For Loop Exercise.py ==> Practice with for loops and iteration
+
+Generate Coordinates using nested loops.py ==> Demonstrates nested loop logic
+
+Inheritance in OOP.py ==> Introduction to object-oriented inheritance
+
+Logical Operators Exercise.py ==> Practice with logical operators (and, or, not)
+Number guessing game.py ==> A fun guessing game using loops and conditionals
+weight-converter_program.py ==> Another take on unit conversion with user input
